@@ -38,7 +38,7 @@ namespace GenAI
                         Parts =
                         {
                             new Part { Text = prompt },
-                            new Part { FileData = new() { MimeType = "application/pdf", FileUri = "gs://hack-2025/Intel Message.pdf" }}
+                            new Part { FileData = new() { MimeType = "application/pdf", FileUri = "gs://hack-2025/sample-terms-conditions-agreement.pdf" }}
                         }
                     }
                 }
